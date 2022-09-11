@@ -1,0 +1,26 @@
+:root {
+  --allfunds-light-blue: #242c4c;
+  --allfunds-dark-blue: hsl(230, 49%, 12%);
+  --allfunds-red: #d50032;
+  --allfunds-gray: #ebecf0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--allfunds-gray);
+}
+
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
